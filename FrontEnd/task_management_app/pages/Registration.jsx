@@ -37,7 +37,7 @@ export const Registration = () => {
       <div className="register-container">
         <div className="register-left">
           <p className="subtitle">Join us and manage your tasks efficiently!</p>
-          <h1 className="title">Cloud-based<br />Task Manager</h1>
+          <h1 className="title">PS3462<br />Task Manager</h1>
           <div className="circle-gradient" />
         </div>
 
