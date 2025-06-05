@@ -96,7 +96,7 @@ ii) Explanation of Database First: In a Database First approach:
     2.Install MySQL: Have a MySQL server running, and create the task_manager database using your provided SQL script.
     3.Create a Virtual Environment and install flask , flask-cors, bcrypt in virtual environment.
 
-9) 2. Frontend Environment (React)=> The frontend is a Multi Page Application (MPA) built with React.js.
+9)  Frontend Environment (React)=> The frontend is a Multi Page Application (MPA) built with React.js.
 
     Core Technologies:
         1.Frontend Library: React.js
