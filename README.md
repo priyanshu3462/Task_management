@@ -75,5 +75,39 @@ ii) Explanation of Database First: In a Database First approach:
    Because Choosing an MPA approach, especially with a library like React, offers several significant advantages for building modern web applications: It Enhanced User Experience (UX) and help to create rich and interactive UIs
 
 
+6) Environment details along with list of dependencies =>
+   1. Backend Environment (Flask): The backend is built with Python and uses the Flask web framework.
+   2. Core Technologies:
+   3. Operating System: Cross-platform (Windows, macOS, Linux)
+   4. Programming Language: Python 3.x (e.g., Python 3.8+)
+   5. Web Framework: Flask
+   6. Database System: MySQL
+  
+7) Dependencies (Python Packages): You will  typically manage these with pip.
+
+    1.Flask: The micro-framework for building the web API.
+    2.Flask-CORS: Used to handle Cross-Origin Resource Sharing, allowing your React frontend (running on localhost:3000 or 5173) to make requests to your Flask backend (running on 
+      localhost:5000). 
+    3.mysql-connector-python: You're using mysql.connector in your code, which points to mysql-connector-python.
+    4. bcrypt: Used for hashing and verifying passwords securely. This is a critical security dependency.
+
+8) How to Set Up/Run the Backend:
+    1.Install Python: Ensure you have Python 3.x installed.
+    2.Install MySQL: Have a MySQL server running, and create the task_manager database using your provided SQL script.
+    3.Create a Virtual Environment and install flask , flask-cors, bcrypt in virtual environment.
+
+9) 2. Frontend Environment (React)=> The frontend is a Multi Page Application (MPA) built with React.js.
+
+    Core Technologies:
+        1.Frontend Library: React.js
+        2.Build Tool/Bundler: Create React App .
+        3.Package Manager: bun or npm
+
+   Dependencies:
+        react: The core React library.
+        react-dom: Provides DOM-specific methods that can be used at the top level of your app.
+        react-router-dom: For handling client-side routing within your SPA (e.g., navigating between /login, /dashboard, /register without full page reloads).
+
+
 
 
