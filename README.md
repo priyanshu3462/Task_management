@@ -67,12 +67,12 @@ ii) Explanation of Database First: In a Database First approach:
     • Strict Interpretation: This typically refers to traditional web applications where the server renders complete HTML pages and sends them to the client. Each navigation often involves a full page reload. In this model, the "View" part of MVC is generated on the server.In this Project Flask backend does not render HTML pages. It acts as a RESTful API. It only returns JSON data.The React frontend is responsible for taking that JSON data and rendering the HTML/UI.
 
 
-4) FrontEnd Structure =>  a Multi-Page Application frontend built with React.js has been used.
+4) FrontEnd Structure =>  a SPA frontend built with React.js has been used.
      • import React, { useState } from 'react';: All your frontend components (App.jsx, Registration.jsx, Login.jsx, Dashboard.jsx) explicitly import React and use React hooks like useState. This is the fundamental building block of a React application, import { createBrowserRouter , RouterProvider } from 'react-router-dom';: The use of react-router-dom in App.jsx clearly indicates client-side routing. Instead of the server sending a new HTML page for each route (like /login, /dashboard), react-router-dom intercepts browser navigation and dynamically renders the appropriate React component within a single HTML page loaded initially.
     • API Requests (apiRequest and fetch): Your frontend components (Registration, Login, Dashboard) make asynchronous fetch or apiRequest calls to http://localhost:5000 to send and receive data (e.g., user credentials, task details). The backend responds with JSON data, not full HTML pages.
 
 5) Why with React?
-   Because Choosing an MPA approach, especially with a library like React, offers several significant advantages for building modern web applications: It Enhanced User Experience (UX) and help to create rich and interactive UIs
+   Because Choosing an SPA approach, especially with a library like React, offers several significant advantages for building modern web applications: It Enhanced User Experience (UX) and help to create rich and interactive UIs
 
 
 6) Environment details along with list of dependencies =>
